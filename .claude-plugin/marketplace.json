@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "arduino-cloud-skills",
+  "metadata": {
+    "description": "Claude Code skills for Arduino Cloud, built on arduino-cloud-cli."
+  },
+  "owner": {
+    "name": "Enrico Balsamo"
+  },
+  "plugins": [
+    {
+      "name": "arduino-cloud",
+      "description": "Work with Arduino Cloud from Claude via arduino-cloud-cli: device status, Things and variables, publishing values, OTA, tags, and dashboards from natural language.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Enrico Balsamo"
+      },
+      "source": "./plugins/arduino-cloud",
+      "category": "iot",
+      "tags": [
+        "arduino",
+        "iot",
+        "arduino-cloud",
+        "dashboard",
+        "devices",
+        "ota"
+      ]
+    }
+  ]
+}

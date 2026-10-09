@@ -1,0 +1,17 @@
+{
+  "name": "arduino-cloud",
+  "description": "Work with Arduino Cloud from Claude via arduino-cloud-cli: device status, Things and variables, publishing values, OTA, tags, and dashboards from natural language.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Enrico Balsamo"
+  },
+  "keywords": [
+    "arduino",
+    "iot",
+    "arduino-cloud",
+    "dashboard",
+    "devices",
+    "ota"
+  ],
+  "skills": "./skills/"
+}
